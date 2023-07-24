@@ -6,6 +6,7 @@ import SongPlaylist from "./components/SongPlaylist";
 
 export default function App() {
   const dispatch = useDispatch();
+
   const handleResetClick = () => {
     dispatch(reset());
   };
